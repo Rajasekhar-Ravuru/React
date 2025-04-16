@@ -1,0 +1,275 @@
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+    /* background-image: linear-gradient(rgb(226, 158, 56),rgb(229, 160, 43),rgb(159, 117, 54)) ; */
+    margin-top: 20px;
+    height: 100px;
+}
+#container a{
+    width: 30px;
+    height: 20px;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav a{
+    margin: 50px;
+}
+.header{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+i{
+    font-size: larger;
+
+}
+
+#btn
+{
+    background-color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+}
+.slider{
+      width: 100%;
+      height: 600px;
+      border: 1px solid black;
+      overflow: hidden;
+      transition: none;
+      margin-top: 10px;
+    
+}
+.slides{
+      display: flex;
+      width: 500%;
+      animation: slide 10s infinite;
+}
+.slides img{
+      width: 100%;
+      height: 600px;
+      opacity: 0.8;
+}
+@keyframes slide {
+       0%, 10% {
+                transform: translateX(0);} 
+       
+       20%, 30% {transform: translateX(-20%);}
+    
+       40%, 50% {transform: translateX(-40%);}
+    
+       60%, 70% {transform: translateX(-60%);}
+    
+      80%, 100% {transform: translateX(-90);}
+}
+#section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1500px;
+    height: 640px;
+    /* margin: 2px; */
+    background-color: rgb(237, 237, 237);
+
+}
+.section1 {
+    
+    border: 1px solid black;
+    width: 1000px; 
+    height:620px ;
+    /* opacity: 0.99; */
+    margin: 15px;
+    background-color: rgba(0, 0, 0, 1.0px);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,100)),  url("https://th.bing.com/th/id/OIP.YlOt5Bc53mfn-VmKG-qwNgHaGW?rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.subsec1 {
+    border: 1px solid black;
+    margin: 17px;
+    width: 700px;
+    height: 300px;
+    /* opacity: 0.8; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,100)),  url("https://thumbs.dreamstime.com/b/mall-women-friends-display-shopping-bags-expressing-vibrant-emotions-close-up-front-view-women-s-emotions-mall-women-friends-302856848.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     display:flex ;
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.subsec2{
+    border: 1px solid black;
+    width: 700px;
+    height: 300px;
+    margin: 17px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,200)),  url("https://th.bing.com/th/id/OIP.RQkNyDDvJrg3QFjHWSjkwAHaDt?w=992&h=496&rs=1&pid=ImgDetMain");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    /* opacity: 0.8; */
+}
+button{
+    color: black;
+    background-color: yellow;
+    width: 80px;
+    height: 30px;
+}
+
+#Productdetails{
+    /* margin:0px; */
+    width: 1500px;
+    height: 200px;
+    background-color: rgb(237, 237, 237);
+}
+#Productdetails i{
+ color: yellow;
+ font-size: xx-large;
+ margin: 10px;
+}
+.Product{
+    display: flex;
+    justify-content: space-around;
+   
+  
+}
+.details{
+    display: flex;
+    border: 2px solid white;
+    background-color:white ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+}
+.details:hover{
+    border: 2px solid black;
+   
+}
+#Mainc{
+    margin: 0;
+    background-color: rgb(237, 237, 237);
+}
+#CATEGORIES{
+
+    margin-top: 50px;
+    height: 360px;
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+
+    margin: 20px;
+}
+img{
+    margin: 10px;
+    width: 70px;
+    height: 60px;
+}
+
+.Content{
+    margin: 30pxx;
+    /* padding: 10px; */
+    display: flex;
+    width: 270px;
+    height: 80px;
+    font-size: large;
+    background-color: white;
+}
+#FEATUEDPRODUCTS{
+    background-color: rgb(237, 237, 237);
+    width: 100%;
+    height: 600px;
+    
+}
+
+#FEATURED{
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(237, 237, 237);
+    
+}
+.Fproducts img{
+    width: 250px;
+    height: 250px;
+    
+}
+.Fproducts{
+    width: 300px;
+    height: 420px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+}
+.Fproducts i {
+    color: yellow;
+}
+.Fproducts a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-size: large;
+}
+.old-price{
+    font-size: medium;
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+#Footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(64, 63, 63);
+}
+.lastfooter{
+    color: white;
+}
+.lastfooter i{
+    color: yellow;
+}
+.links i{
+    width: 17px;
+    height: 20px;
+    padding: 12px;
+    margin: 5px;
+    color:  rgb(64, 63, 63);
+    text-align: center  ;
+    background-color: yellow;
+    border: 0.1px solid black;
+
+}
+input{
+    height: 22px;
+}
+
+
+
+
+
